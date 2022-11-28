@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class First_Class {
+public class first_Class {
 
 
 
@@ -18,14 +18,14 @@ public class First_Class {
 	
 	driver.get("http://127.0.0.1:5500/index.html");
 	
-	String Mytittle=driver.getTitle();
+	String Myittle=driver.getTitle();
 	
 	System.out.println(Mytittle);
 	
-	List<WebElement> MyListOfOption =driver.findElements(By.tagName("option"));
+	List<WebElement> MylistOfoption =driver.findElements(By.tagName("option"));
 	
 	for(int i=0;i<MyListOfOption.size();i++) {
-		System.out.println(MyListOfOption.get(i).getText());
+		System.out.println(MylistOfption.get(i).getText());
 	}
 	
 	}
